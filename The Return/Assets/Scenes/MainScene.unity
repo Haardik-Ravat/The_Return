@@ -167,7 +167,11 @@ MonoBehaviour:
   Location_Name: East Shore
   Description: You are on a black rock shore that leads to a still silver sea with
     no horizon.
-  connections: []
+  connections:
+  - ConnectionName: West
+    Description: To the west is the island
+    location: {fileID: 1554284321}
+    connectionEnabled: 1
 --- !u!1 &174746198
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,7 +748,23 @@ MonoBehaviour:
     well leads directly into the sea below, in the water you see piles of coins,
     some\r\nblack with age some sparkling gold and silver in the light. A shape swims
     through the water.\r\n"
-  connections: []
+  connections:
+  - ConnectionName: East
+    Description: There is an antechamber to the east.
+    location: {fileID: 537076724}
+    connectionEnabled: 1
+  - ConnectionName: West
+    Description: There is an antechamber to the west.
+    location: {fileID: 1423903662}
+    connectionEnabled: 1
+  - ConnectionName: North
+    Description: To the north a carved wooden door.
+    location: {fileID: 2124835111}
+    connectionEnabled: 1
+  - ConnectionName: South
+    Description: To the south the steps snake down the cliff face to the shore.
+    location: {fileID: 1893154735}
+    connectionEnabled: 1
 --- !u!1 &931327261
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,7 +956,16 @@ MonoBehaviour:
   Description: "You find yourself at the water\u2019s edge. Sea worn planks tied
     with barnacle encrusted ropes form a bridge over\r the water fading into the
     fog.\r\n"
-  connections: []
+  connections:
+  - ConnectionName: North
+    Description: Peering north across the sea to a dark shape hovers on the edge
+      of sight.
+    location: {fileID: 1893154735}
+    connectionEnabled: 1
+  - ConnectionName: South
+    Description: To the south is the island
+    location: {fileID: 1554284321}
+    connectionEnabled: 1
 --- !u!1 &1062673583
 GameObject:
   m_ObjectHideFlags: 0
@@ -1227,7 +1256,11 @@ MonoBehaviour:
   Location_Name: West Shore
   Description: "You are on a black rock shore that leads to a still silver sea with
     no horizon.\r"
-  connections: []
+  connections:
+  - ConnectionName: East
+    Description: 'To the east is the island '
+    location: {fileID: 1554284321}
+    connectionEnabled: 1
 --- !u!1 &1491598550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,7 +1355,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Location_Name: Island
   Description: You stand on a misty island.
-  connections: []
+  connections:
+  - ConnectionName: East
+    Description: To the east lies a shore.
+    location: {fileID: 127697818}
+    connectionEnabled: 1
+  - ConnectionName: West
+    Description: To the west lies a shore.
+    location: {fileID: 1429673646}
+    connectionEnabled: 1
+  - ConnectionName: North
+    Description: There is a beach to the north.
+    location: {fileID: 1018843442}
+    connectionEnabled: 1
+  - ConnectionName: South
+    Description: To the south you a large tree
+    location: {fileID: 1678661163}
+    connectionEnabled: 1
 --- !u!1 &1678661161
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,7 +1417,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Location_Name: Tree
   Description: "You stand by the tree and touch its blackened and gnarled surface.\r"
-  connections: []
+  connections:
+  - ConnectionName: North
+    Description: To the north is the rest of the Island
+    location: {fileID: 1554284321}
+    connectionEnabled: 1
 --- !u!1 &1700928518
 GameObject:
   m_ObjectHideFlags: 0
@@ -1494,7 +1547,16 @@ MonoBehaviour:
   Description: "Reaching the shore, the walls of an ancient fortification are carved
     into the cliff face\r. At the top of the\r cliff a stone chapel looks out over
     the sea."
-  connections: []
+  connections:
+  - ConnectionName: North
+    Description: Steps snake northward, high up the rock face leading to a dark cave
+      entrance.
+    location: {fileID: 725507123}
+    connectionEnabled: 1
+  - ConnectionName: South
+    Description: The wooden bridge leads south over the sea.
+    location: {fileID: 1018843442}
+    connectionEnabled: 1
 --- !u!1 &2124835109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,4 +1604,8 @@ MonoBehaviour:
   Description: "You find yourself walking down a stone jetty, as you move forward,
     slowly a hooded figure\r\nmaterialises from the mist. A Ferryman stands in his
     boat, it rocks in the gathering wind ringing the\r arrival bell.\r"
-  connections: []
+  connections:
+  - ConnectionName: South
+    Description: Returns to the chapel
+    location: {fileID: 725507123}
+    connectionEnabled: 1
