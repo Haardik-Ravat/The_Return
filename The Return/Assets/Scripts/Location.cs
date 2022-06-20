@@ -19,4 +19,17 @@ public class Location : MonoBehaviour
     {
         
     }
+
+    public string GetConnections() {
+        string res = "";
+
+        foreach (Connections con in connections) {
+            if (con.connectionEnabled) {
+                res += con.Description + "\n";
+            }
+        }
+
+        return res;    
+    
+    }
 }
