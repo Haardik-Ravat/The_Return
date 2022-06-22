@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4.600006, y: 66.776}
-  m_SizeDelta: {x: 9.129028, y: -133.55167}
+  m_AnchoredPosition: {x: 3.7999878, y: 75.1}
+  m_SizeDelta: {x: 7.6101074, y: -150.26263}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &52411000
 MonoBehaviour:
@@ -370,9 +370,9 @@ RectTransform:
   m_Father: {fileID: 52410999}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.04639871}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 54}
+  m_AnchoredPosition: {x: 0, y: 127}
   m_SizeDelta: {x: -34.9906, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &431455311
@@ -751,6 +751,7 @@ MonoBehaviour:
   curText: {fileID: 1062673585}
   actions:
   - {fileID: 11400000, guid: 40c9128d8dd57bb45950f207d53e2363, type: 2}
+  - {fileID: 11400000, guid: bb405ad6483d03c488ee1f2730c47106, type: 2}
   introText: 'A thunder crack of splintering wood wrenches you from darkness. A scream
     of shock, heat and
 

@@ -17,4 +17,10 @@ public class Player : MonoBehaviour
     {
         
     }
+
+
+    public bool ChangeLocaion(GameController controller, string conNoun)
+    { 
+    
+    }
 }

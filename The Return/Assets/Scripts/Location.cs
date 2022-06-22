@@ -31,5 +31,22 @@ public class Location : MonoBehaviour
 
         return res;    
     
+ 
     }
+    
+    public Connections GetConnection(string conNoun)
+    {
+        foreach (Connections con in connections) 
+        {
+            if (con.ConnectionName.ToLower() == conNoun.ToLower()) 
+            {
+                return con;
+            }
+
+        }
+
+        return null;
+    }
+
+
 }
