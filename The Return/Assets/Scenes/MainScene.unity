@@ -749,6 +749,8 @@ MonoBehaviour:
   textEntryField: {fileID: 498676493}
   logText: {fileID: 431455311}
   curText: {fileID: 1062673585}
+  actions:
+  - {fileID: 11400000, guid: 40c9128d8dd57bb45950f207d53e2363, type: 2}
   introText: 'A thunder crack of splintering wood wrenches you from darkness. A scream
     of shock, heat and
 

@@ -10,6 +10,8 @@ public class GameController : MonoBehaviour
     public Text logText;
     public Text curText;
 
+    public Action[] actions;
+
 
     [TextArea]
     public string introText;
@@ -63,7 +65,22 @@ public class GameController : MonoBehaviour
         char[] delimiter = { ' ' };
         string[] sep = input.Split(delimiter);
 
-        // something something
+        foreach (Action action in actions) {
+
+            if (action.keyword == sep[0]) {
+
+                if (sep.Length > 1)
+                {
+                    action.Respond(this, sep[1]);
+                }
+                else
+                {
+                    action.Respond(this, "");
+                }
+                return;
+            
+            }
+        }
 
         curText.text="You're dumb, get Help! (type Help)";
     
