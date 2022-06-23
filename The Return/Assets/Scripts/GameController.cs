@@ -67,7 +67,7 @@ public class GameController : MonoBehaviour
 
         foreach (Action action in actions) {
 
-            if (action.keyword == sep[0]) {
+            if (action.keyword.ToLower() == sep[0]) {
 
                 if (sep.Length > 1)
                 {
