@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
     public Location currentLocation;
 
+
+    public List<item> Inventory= new List<item>();
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +19,9 @@ public class Player : MonoBehaviour
     {
         
     }
+
+
+
 
 
     public bool ChangeLocaion(GameController controller, string conNoun)

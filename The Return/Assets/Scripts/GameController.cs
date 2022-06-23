@@ -36,6 +36,7 @@ public class GameController : MonoBehaviour
 
         string desc = player.currentLocation.Description+"\n";
         desc += player.currentLocation.GetConnections();
+        desc += player.currentLocation.GetItemsText();
         curText.text = desc;
     
     }

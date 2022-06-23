@@ -9,6 +9,8 @@ public class Location : MonoBehaviour
     public string Description;
 
     public Connections[] connections;
+
+    public List<item> items = new List<item>();
     void Start()
     {
         
@@ -19,6 +21,26 @@ public class Location : MonoBehaviour
     {
         
     }
+
+    public string GetItemsText()
+    {
+        if (items.Count == 0) return "";
+
+        string result = "You see";
+        bool first = true;
+
+
+        foreach (item ite in items) {
+
+            if (!first) result += " and ";
+
+            result += ite.desc;
+            first = false;
+        }
+        result += "\n";
+        return result;
+    }
+
 
     public string GetConnections() {
         string res = "";

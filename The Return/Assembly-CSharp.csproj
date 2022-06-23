@@ -56,12 +56,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Action.cs" />
+     <Compile Include="Assets\Scripts\Actions\Get.cs" />
      <Compile Include="Assets\Scripts\Actions\Go.cs" />
      <Compile Include="Assets\Scripts\Actions\Help.cs" />
      <Compile Include="Assets\Scripts\Connections.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\Location.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\item.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
