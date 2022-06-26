@@ -202,10 +202,10 @@ RectTransform:
   m_Father: {fileID: 174746199}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.46711716}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 67.8}
-  m_SizeDelta: {x: 0.000061035156, y: -147.34149}
+  m_AnchoredPosition: {x: 0, y: -0.000030994}
+  m_SizeDelta: {x: 0.000061035156, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &52411000
 MonoBehaviour:
@@ -465,10 +465,10 @@ RectTransform:
   m_Father: {fileID: 52410999}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.04639871}
+  m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 32}
-  m_SizeDelta: {x: -34.9906, y: 0}
+  m_AnchoredPosition: {x: -0.3999939, y: 58}
+  m_SizeDelta: {x: -18.325378, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &431455311
 MonoBehaviour:
@@ -500,9 +500,38 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: xcgdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  m_Text: ' bridge over
+
+    kkkkkkkkkk
+
+    jjjjjjjjjjjjjjjjj
+
+    bbbbbbbbbbbbbbbbb''
+
+    the
+    water ff sight.
+
+    South
+
+    : To the south is the island
+
+    Items:
+
+    None
+
+    Tree:
+
+    You
+    stand by the tree and touch its blackened and gnarled surface.
+
+    Coface
+
+    .
+    At the top of the
+
+    ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
 --- !u!222 &431455312
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -849,35 +878,22 @@ MonoBehaviour:
   actions:
   - {fileID: 11400000, guid: 40c9128d8dd57bb45950f207d53e2363, type: 2}
   - {fileID: 11400000, guid: bb405ad6483d03c488ee1f2730c47106, type: 2}
-  introText: 'A thunder crack of splintering wood wrenches you from darkness. A scream
-    of shock, heat and
+  - {fileID: 11400000, guid: d2d75b687b420284e80344975221e0f1, type: 2}
+  - {fileID: 11400000, guid: 8fb3f8c97aeaa6546ae6fd041d614909, type: 2}
+  introText: '
 
-    sweat floods onto the cold shaking ground. Reborn in
-    moss and dirt you take one gasping breath of
+    A thunder crack of splintering wood wrenches you from darkness.
+    A scream of shock, heat and sweat floods onto the cold shaking ground. Reborn
+    in moss and dirt you take one gasping breath of acrid smoke then another, and
+    another. You wretch and convulse awareness spreading feeling for breaks in muscle
+    and bone, stretching out to fingers toes then retreating to slow a pounding heart.
+    Senses waking you feel the moss on your face the earth in your mouth, aching
+    trembling pushing up back onto your knees you open your eyes.
 
-    acrid smoke then another, and
-    another. You wretch and convulse awareness spreading feeling for
-
-    breaks
-    in muscle and bone, stretching out to fingers toes then retreating to slow a
-    pounding heart.
-
-    Senses waking you feel the moss on your face the earth in
-    your mouth, aching trembling pushing
-
-    up back onto your knees you open your
-    eyes.
-
-    Coming into focus dry roots wrap round sap covered arms you tear them
-    off wiping the dirt from
-
-    yourself. You grab a lose branch and use it to
-    stand and prop yourself. In front of you the earth
-
-    fades into a dense white
-    fog.
-
-'
+    Coming into
+    focus dry roots wrap round sap covered arms you tear them off wiping the dirt
+    from yourself. You grab a lose branch and use it to stand and prop yourself.
+    In front of you the earth fades into a dense white fog.'
 --- !u!4 &552321261
 Transform:
   m_ObjectHideFlags: 0
@@ -1395,8 +1411,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 2.3024902, y: 74.100006}
-  m_SizeDelta: {x: -34.995483, y: 118.903336}
+  m_AnchoredPosition: {x: -2.2999878, y: 108.2}
+  m_SizeDelta: {x: -31.485474, y: 187.21004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1062673585
 MonoBehaviour:
@@ -1483,7 +1499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: statue
-  desc: A stone statue, smashed at the waist.
+  desc: a stone statue, smashed at the waist.
   playerCanTake: 0
   ItemEnabled: 1
 --- !u!1 &1117087557

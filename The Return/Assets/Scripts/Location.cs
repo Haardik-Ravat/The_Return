@@ -31,11 +31,13 @@ public class Location : MonoBehaviour
 
 
         foreach (item ite in items) {
+            if (ite.ItemEnabled)
+            {
+                if (!first) result += " and ";
 
-            if (!first) result += " and ";
-
-            result += ite.desc;
-            first = false;
+                result += ite.desc;
+                first = false;
+            }
         }
         result += "\n";
         return result;

@@ -6,6 +6,6 @@ public abstract class Action : ScriptableObject
 {
     public string keyword;
 
-    public abstract void Respond(GameController controller, string verb);
+    public abstract void Respond(GameController controller, string noun);
 
 }

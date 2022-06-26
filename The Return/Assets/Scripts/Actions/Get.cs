@@ -6,21 +6,26 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Actions/Get")]
 public class Get : Action
 {
-    public override void Respond(GameController controller, string verb)
+    public override void Respond(GameController controller, string noun)
     {
+        foreach (item it in controller.player.currentLocation.items)
+        {
+            if (it.ItemEnabled && it.itemName == noun)
+            {
+                if (it.playerCanTake)
 
+                {
+                    controller.player.Inventory.Add(it);
+                    controller.player.currentLocation.items.Remove(it);
+                    controller.curText.text = "You take the" + noun;
+                    return;
+                }
+
+            }
+        }
+        controller.curText.text = "You can't get that!";
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+ 
 }
 

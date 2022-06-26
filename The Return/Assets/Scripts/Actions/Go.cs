@@ -6,9 +6,9 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Actions/Go")]
 public class Go : Action
 {
-    public override void Respond(GameController controller, string verb)
+    public override void Respond(GameController controller, string noun)
     {
-        if (controller.player.ChangeLocaion(controller, verb))
+        if (controller.player.ChangeLocaion(controller, noun))
         {
             controller.DisplayLocation();
 
